@@ -1,0 +1,50 @@
+body {
+  font-family: 'Poppins', 'Itim', sans-serif;
+  font-size: 20px;
+}
+
+.header {
+  background-color: #0D0D0D;
+  padding: 30px;
+  display: block;
+}
+
+.btn-button {
+  background: #FDC71C;
+}
+
+.title {
+  color: coral;
+  -webkit-text-stroke: 3px black;
+}
+
+.title-logo {
+  color: rgb(255, 255, 255);
+  -webkit-text-stroke: 3px black;
+}
+
+.detail-logo {
+  color: #FDC71C;
+  -webkit-text-stroke: 3px black;
+  /* text-shadow: -5px 0 black, 0 5px black, 5px 0 black, 0 -5px black; */
+}
+
+.item-cartoon {
+  width: 100%;
+}
+
+.item-ball {
+  width: 55%;
+}
+
+.item-product {
+  width: 100%;
+}
+
+.item-two {
+  width: 40%;
+}
+
+.item-footer {
+  width: 10%;
+}
