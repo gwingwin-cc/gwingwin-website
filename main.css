@@ -33,9 +33,6 @@ body {
   width: 100%;
 }
 
-.item-ball {
-  width: 55%;
-}
 
 .item-product {
   width: 100%;
@@ -47,4 +44,8 @@ body {
 
 .item-footer {
   width: 10%;
+}
+
+.dropdownTHENG {
+  text-align:right;
 }
