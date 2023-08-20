@@ -20,9 +20,9 @@
 <body>
 <div class="container p-4 py-md-5" style="max-width: 1024px;">
     <main>
-        <div class="dropdownTHENG">
+        <div class="dropdown-lang">
             <label for="language">Language</label>
-            <select name="language" id="language">
+            <select name="language" id="languageDropdown">
             <option value="thai">Thai</option>
             <option value="english">English</option>
             </select>
@@ -34,10 +34,10 @@
         <div class="text-center">
             <p class="fw-bold display-6 ">NOT THE DUCK</p>
             <p class="fw-bold display-6 detail-logo">BUT SUPER PENGUIN</p>
-            <div>
+            <div id="greeting1">
                 ถ้าเป็นเป็ดที่ไม่เก่งสักทางมาเป็น Gwin 🐧 กับเราไหม
             </div>
-            <div>
+            <div id="greeting2">
                 เปลี่ยนแต่ชื่อไม่เก่งเหมือนเดิม 🤣 🤣 🤣
             </div>
         </div>
@@ -53,19 +53,19 @@
             <div class="col-md-6 offset-md-1 col-sm-6">
                 <h3>WHO WE ARE</h3>
                 <p class="fw-bold display-5 title">Tech Creative Community</p>
-                <p class="fs-5 text-uppercase">
+                <p class="fs-5 text-uppercase" id="content1">
                     เรา `จะเป็น` องกรณ์ที่มุ่งเน้นเพื่อช่วยเหลือ ส่งเสริมด้าน Dev และ Technology
                     และเป็น Community เพื่อส่งเสริมและแชร์การเรียนรู้
 
                 </p>
-                <div>ตอนนี้เริ่มต้นที่มี Discord แล้ว 👍</div>
+                <div id="content2">ตอนนี้เริ่มต้นที่มี Discord แล้ว 👍</div>
             </div>
             <div class="col-md-5 col-sm-6">
                 <div>
                     <img style="border-radius:10px;" class="item-cartoon" src="assets/brand/join-discord.png"/>
                 </div>
                 <div class="text-center">
-                    <b><a href="https://discord.gg/YjbZ5eXNdR">มา join space ใน Discord กันนะครับ</a></b>
+                    <b><a href="https://discord.gg/YjbZ5eXNdR" id="content3">มา join space ใน Discord กันนะครับ</a></b>
                 </div>
             </div>
 
@@ -119,7 +119,7 @@
 
 
 <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
-
+<script src="translationscript.js"></script>
 
 </body>
 
