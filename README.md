@@ -3,7 +3,7 @@
 
 ## GWINGWIN WEBSITE
 
-pure html + css website for GWINGWIN community.
+pure html + css website for GwinGwin community.
 
 using bootstrap5.
 
