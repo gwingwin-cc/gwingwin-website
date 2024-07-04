@@ -1,6 +1,11 @@
+html {
+  background-color: brown;
+}
+
 body {
   font-family: 'Poppins', 'Itim', sans-serif;
   font-size: 20px;
+  background-color: lightyellow;
 }
 
 .header {
@@ -30,6 +35,8 @@ body {
 }
 
 .item-cartoon {
+  border-radius: 30px;
+  border: solid;
   width: 100%;
 }
 
